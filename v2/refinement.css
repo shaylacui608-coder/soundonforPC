@@ -167,3 +167,14 @@
   .tools-grid h3 { width:100%; min-width:0; padding:0 4px; overflow-wrap:normal; }
   .tools-grid p { width:100%; }
 }
+
+/* Keep real padding below analytics even when its content exceeds the viewport. */
+.insight-sticky { height:auto; min-height:calc(100svh - var(--header-height)); padding:72px 0; }
+@media (max-width:700px) { .insight-sticky { padding:48px 0; } }
+
+/* The wireframe, glow and logos share one proportionate stage. */
+.platform-world { width:calc(100% + 50px); max-width:700px; height:auto; aspect-ratio:700/600; margin-right:-50px; min-width:0; }
+.platform-world .platform-cloud { position:absolute; inset:0; }
+@media (max-width:700px) {
+  .platform-world { width:100%; max-width:540px; height:auto; margin:16px auto 0; }
+}

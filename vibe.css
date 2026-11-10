@@ -95,3 +95,14 @@ dialog{border-radius:var(--radius-dialog)}
   .promotion-grid.promotion-composites article>.promotion-copy { padding:22px 16px; }
   .promotion-composites h3 { font-size:22px; letter-spacing:-.35px; }
 }
+
+/* Keep real padding below analytics even when its content exceeds the viewport. */
+.insight-sticky { height:auto; min-height:calc(100svh - var(--header-height)); padding:72px 0; }
+@media (max-width:700px) { .insight-sticky { padding:48px 0; } }
+
+@media (max-width:1279px) {
+  .promotion-composites article::before {
+    -webkit-mask-image:linear-gradient(to right,#000 0%,#000 70%,transparent 100%);
+    mask-image:linear-gradient(to right,#000 0%,#000 70%,transparent 100%);
+  }
+}

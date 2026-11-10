@@ -42,7 +42,7 @@ const orbitNodes=[...cloud.children].flatMap(img=>{
  img.style.setProperty('--size',place[2]/7+'%');return [{img,lon:place[0]*Math.PI/180,lat:place[1]*Math.PI/180}];
 });
 const globeWorld=document.querySelector('.platform-world'),wire=globeWorld.querySelector('svg');
-wire.setAttribute('viewBox','0 0 700 600');wire.setAttribute('preserveAspectRatio','none');
+wire.setAttribute('viewBox','0 0 700 600');wire.setAttribute('preserveAspectRatio','xMidYMid meet');
 wire.innerHTML='<path class="wire-back"/><path class="wire-front"/>';
 const back=wire.querySelector('.wire-back'),front=wire.querySelector('.wire-front');
 const meridians=Array.from({length:12},(_,i)=>Array.from({length:61},(_,j)=>[i*Math.PI/6,(j/60-.5)*Math.PI]));
