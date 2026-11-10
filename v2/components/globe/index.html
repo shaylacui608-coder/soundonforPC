@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SoundOn — Your music, everywhere</title><link rel="stylesheet" href="style.css"><style>html,body{height:100%;overflow:hidden}main{padding:0;height:100%}.stage{height:100%!important;min-height:0;border-radius:20px}.topline,footer,.hint,.bottomline{display:none}.bottomline{left:12px;right:12px;bottom:12px;align-items:flex-end}.controls{transform:scale(.85);transform-origin:right bottom}.bubble .name{font-size:24px}.bubble .meta{font-size:14px}.bubble img{width:58px;height:58px}</style></head>
+<body>
+
+<main>
+<section class="stage" aria-label="可旋转缩放的观众地球">
+<canvas aria-label="灰色大陆和经纬网格地球"></canvas><div class="labels"></div>
+<div class="topline"><span class="status"><i></i><span id="level">CREATOR CONNECTIONS</span></span><span class="sample">Illustrative data</span></div>
+<div class="bottomline"><span class="hint">拖拽旋转 · 滚轮 / 双指缩放 · 点击空白切换层级</span><div class="controls"><button id="out" aria-label="缩小到国家">−</button><button id="toggle">查看国家</button><button id="in" aria-label="放大到创作者">＋</button><button id="motion" aria-label="暂停自动旋转">Ⅱ</button></div></div>
+</section>
+<footer><span id="caption">01 — People behind the plays</span><span>GLOBAL REACH, HUMAN CONNECTION.</span></footer>
+</main>
+<script src="vendor/d3-array.js"></script><script src="vendor/d3-geo.js"></script><script src="assets/world.js"></script><script src="app.js?v=fictional-creators-1"></script>
+</body></html>

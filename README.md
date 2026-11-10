@@ -1,10 +1,11 @@
 # SoundOn for PC
 
-Scheme 1 interactive homepage design prototype.
+Two independent SoundOn interactive homepage design prototypes.
 
 ## Preview
 
-https://shaylacui608-coder.github.io/soundonforPC/
+- Scheme 1: https://shaylacui608-coder.github.io/soundonforPC/
+- Scheme 2: https://shaylacui608-coder.github.io/soundonforPC/v2/
 
 ## Local preview
 

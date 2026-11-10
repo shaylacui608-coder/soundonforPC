@@ -1,0 +1,39 @@
+@font-face{font-family:TikTok;src:url('assets/TikTokSansText-Regular.woff2')}
+*{box-sizing:border-box}body{margin:0;background:#f3f3f1;color:#303635;font-family:TikTok,Arial,sans-serif}main{width:calc(100% - 80px);max-width:1232px;margin:auto;padding:20px 0 24px}.gallery{position:relative;isolation:isolate}.record-viewport{overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain;outline-offset:-3px}.record-viewport::-webkit-scrollbar{display:none}.records{display:flex;padding:20px 0 60px}.record-item{flex:0 0 25%;min-width:0;display:flex;justify-content:center;height:clamp(220px,23vw,300px)}.record{position:relative;display:flex;align-items:flex-end;justify-content:center;width:100%;border:0;background:none;color:inherit;padding:0;cursor:pointer}.jacket{position:relative;display:block;width:75%;max-width:250px;aspect-ratio:1;z-index:2;isolation:isolate;box-shadow:0 0 0 1px #bbc0bd,2px 0 0 #e5e7e4,4px 0 0 #bfc3bf,0 8px 14px #4a53491c;transition:translate .35s}.jacket img{display:block;position:relative;width:100%;height:100%;object-fit:cover;object-position:50% 35%;z-index:1}.jacket:after{content:'';position:absolute;inset:0;z-index:2;border:1px solid #ffffffa0;background:linear-gradient(115deg,#fff2,transparent 25%,transparent 61%,#ffffff25 61.4%,transparent 62.2%);box-shadow:inset 0 0 0 2px #ffffff25;pointer-events:none}.vinyl{position:absolute;inset:4%;z-index:0;border-radius:50%;background:radial-gradient(circle,#f3f3f1 0 2%,#1c2021 2.5% 5%,var(--label) 5.5% 20%,transparent 20.5%),repeating-radial-gradient(circle,#242626 0 1px,#101212 1px 2.5px);translate:14% 0;box-shadow:2px 3px 5px #0002;transition:translate .4s}.vinyl:after{content:'';position:absolute;inset:0;border-radius:50%;background:conic-gradient(from 10deg,transparent,#ffffff25 35deg,transparent 70deg,transparent 170deg,#ffffff15 215deg,transparent 250deg)}.record-shadow{position:absolute;bottom:-9px;left:12%;right:10%;height:15px;border-radius:50%;background:#55645a2c;filter:blur(9px);z-index:0}.plaque{position:absolute;bottom:-18px;left:9%;z-index:4;display:block;min-width:110px;text-align:left;padding:9px 10px;background:#fcfdfc;border:1px solid #e1e5e1;box-shadow:0 3px 4px #6274680e}.plaque small{display:block;font:6px/1.5 monospace;letter-spacing:.6px;color:#919893}.plaque strong{display:block;font:9px/1.4 monospace;font-weight:400;letter-spacing:.3px;margin-top:3px}.plaque i{position:absolute;right:7px;top:8px;font:6px monospace;color:#909893}.shelf{position:absolute;bottom:42px;left:0;right:0;height:17px;border-radius:1px;background:linear-gradient(#fcfdfc,#f7f9f7);box-shadow:0 1px 0 #fff,0 3px 0 #e1e5e1,0 4px 0 #d1d7d2;z-index:-1}.shelf:after{content:'';position:absolute;inset:0;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.88' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23888' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E")}.shelf-shadow{position:absolute;bottom:29px;left:2%;right:2%;height:16px;border-radius:50%;background:#7d85821a;filter:blur(9px);z-index:-2}.shelf-arrow{position:absolute;top:calc(50% - 15px);z-index:5;width:42px;height:42px;display:grid;place-items:center;border:1px solid #fff4;border-radius:50%;background:#1c242962;color:#fff;backdrop-filter:blur(4px);cursor:pointer;transition:background .2s,opacity .2s}.shelf-arrow:hover{background:#1c2429b8}.shelf-arrow:disabled{opacity:.23;cursor:default}.shelf-arrow svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.previous{left:1%}.next{right:1%}.record:hover .jacket,.record:focus-visible .jacket{translate:0 -6px}.record:hover .vinyl,.record:focus-visible .vinyl{translate:23% 0}button:focus-visible,.record-viewport:focus-visible{outline:2px solid #fe2c55;outline-offset:4px}.record:focus-visible{outline:none}.record:focus-visible .plaque{outline:2px solid #fe2c55}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(max-width:900px){.record-item{flex-basis:33.333333%;height:230px}.plaque{min-width:94px;padding:7px}.plaque strong{font-size:8px}.plaque small{font-size:5px}}
+@media(max-width:600px){main{width:94%;padding-top:12px}.record-item{flex-basis:50%;height:190px}.jacket{width:77%}.plaque{left:8%;min-width:90px;padding:6px 7px}.plaque strong{font-size:7px}.shelf-arrow{width:34px;height:34px}.shelf-arrow svg{width:20px;height:20px}.previous{left:0}.next{right:0}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Equal-size cards keep official highlights legible, including multi-line awards. */
+.plaque{width:min(82%,210px);min-width:0;height:102px;padding:10px 11px;display:flex;flex-direction:column;justify-content:space-between;gap:5px}
+.plaque-summary{display:block}
+.plaque small{font:11px/1.3 TikTok,Arial,sans-serif;letter-spacing:0;color:#717974;text-wrap:pretty}
+.plaque .achievement{display:block;margin-top:3px;font:12px/1.3 TikTok,Arial,sans-serif;color:#3f4742}
+.plaque strong{font:600 15px/1.2 TikTok,Arial,sans-serif;letter-spacing:0;margin:0;text-transform:none}
+@media(max-width:600px){.plaque{width:84%;height:106px;padding:9px 8px}.plaque strong{font-size:14px}}
+
+.record{text-decoration:none;-webkit-tap-highlight-color:transparent}
+
+/* All eight records are visible; each row has its own matte white shelf. */
+.shelf-stack{display:grid;gap:24px}.records{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:20px 0 60px}.record-item{width:100%;min-width:0}.gallery{overflow:visible}
+@media(max-width:600px){.records{grid-template-columns:repeat(2,minmax(0,1fr))}.shelf-stack{gap:16px}}
+
+/* Matte charcoal display, continuous with Scheme 2's dark artist section. */
+body{background:#111;color:#f3f3f1}
+.shelf{background:linear-gradient(180deg,#303030,#292929);box-shadow:0 1px 0 #3b3b3b,0 3px 0 #222,0 4px 0 #191919}
+.shelf:after{opacity:.045}
+.shelf-shadow{background:#0009;filter:blur(12px);height:20px;bottom:23px}
+.record-shadow{background:#0009;filter:blur(10px)}
+.jacket{box-shadow:0 0 0 1px #454545,2px 0 0 #363636,4px 0 0 #252525,0 8px 18px #0006}
+.jacket:after{border-color:#ffffff38;box-shadow:inset 0 0 0 2px #ffffff12}
+.plaque{background:#222;border-color:#383838;box-shadow:0 3px 8px #0005}
+.plaque small{color:#aaa}.plaque .achievement{color:#ddd}.plaque strong{color:#f3f3f1}
+.vinyl{box-shadow:2px 3px 5px #0007,0 0 0 1px #ffffff12}
+
+/* SoundOn pink identification plaques against the charcoal shelves. */
+.plaque{background:#fe2c55;border-color:#fe2c55;box-shadow:0 3px 8px #0005}
+.plaque small{color:#ffffffe6}.plaque .achievement,.plaque strong{color:#fff}
+.record:focus-visible .plaque{outline:2px solid #fff;outline-offset:3px}
+
+/* Community labels show the same name and role used in Scheme 1. */
+.plaque{height:68px;justify-content:center;gap:8px}.plaque strong{font-size:16px}

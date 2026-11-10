@@ -1,0 +1,452 @@
+[
+  {
+    "file": "assets/album-00.jpg",
+    "title": "A Moon Shaped Pool",
+    "artist": "Radiohead",
+    "source": "https://music.apple.com/us/album/a-moon-shaped-pool/1111577743?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/f2/5d/b7f25d91-4320-47c8-146a-6f84d5bc7e78/cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-01.jpg",
+    "title": "Kid A",
+    "artist": "Radiohead",
+    "source": "https://music.apple.com/us/album/kid-a/1097862870?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/8e/13/bd8e1358-b367-a689-cb84-cebd0b067dc4/634904078263.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-02.jpg",
+    "title": "The Bends",
+    "artist": "Radiohead",
+    "source": "https://music.apple.com/us/album/the-bends/1097862703?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/a9/5c/1ba95cac-b245-d386-63fb-6b857aa9dce8/634904078065.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-03.jpg",
+    "title": "Sound & Color",
+    "artist": "Alabama Shakes",
+    "source": "https://music.apple.com/us/album/sound-color/1053742064?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/6c/30/aa/6c30aa11-b842-105c-da48-d569c45604fc/mzm.rrxxfbbw.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-04.jpg",
+    "title": "In the Aeroplane Over the Sea",
+    "artist": "Neutral Milk Hotel",
+    "source": "https://music.apple.com/us/album/in-the-aeroplane-over-the-sea/1839077554?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/e3/5c/12e35c39-de5c-b501-3ef0-00f19fb3d513/56627.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-05.jpg",
+    "title": "Real Love Baby - Single",
+    "artist": "Father John Misty",
+    "source": "https://music.apple.com/us/album/real-love-baby-single/1133711544?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/8f/bb/d28fbbb2-e51c-ace6-4626-b852d8593967/098787118162.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-06.jpg",
+    "title": "Coming Home (Deluxe)",
+    "artist": "Leon Bridges",
+    "source": "https://music.apple.com/us/album/coming-home-deluxe/1079234232?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/27/37/70/273770eb-92ac-1d00-87e6-e0f5ec0e97ab/886445452204.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-07.jpg",
+    "title": "Show Me How - Single",
+    "artist": "Men I Trust",
+    "source": "https://music.apple.com/us/album/show-me-how-single/1719975687?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/57/39/cf5739e6-332a-e64c-bed0-b763893c0517/artwork.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-08.jpg",
+    "title": "Nectar",
+    "artist": "Joji",
+    "source": "https://music.apple.com/us/album/nectar/1724881021?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/91/7c/2b/917c2ba3-c97c-2807-2c18-b7794ebe5310/190296846489.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-09.jpg",
+    "title": "The Slow Rush",
+    "artist": "Tame Impala",
+    "source": "https://music.apple.com/us/album/the-slow-rush/1497230760?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/65/e3/e7/65e3e740-b69f-f5cb-f2e6-7dedb5265ac9/19UMGIM96748.rgb.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-10.jpg",
+    "title": "Charm",
+    "artist": "Clairo",
+    "source": "https://music.apple.com/us/album/charm/1742301413?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/8c/19/f78c1951-ced5-fea6-251b-50914d96fd62/00196922948305_Cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-11.jpg",
+    "title": "In Rainbows",
+    "artist": "Radiohead",
+    "source": "https://music.apple.com/us/album/in-rainbows/1109714933?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/50/c7/dd50c790-99ac-d3d0-5ab8-e3891fb8fd52/634904032463.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-12.jpg",
+    "title": "Submarine",
+    "artist": "The Marías",
+    "source": "https://music.apple.com/us/album/submarine/1733730985?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0b/4d/b6/0b4db6bd-2d40-55a5-1714-67f5c816294d/075679659644.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-13.jpg",
+    "title": "Good Looking - Single",
+    "artist": "Suki Waterhouse",
+    "source": "https://music.apple.com/us/album/good-looking-single/1623489917?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/6d/0a/50/6d0a502a-757e-dc44-3c55-1c1822916fbb/098787153767.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-14.jpg",
+    "title": "OK Computer",
+    "artist": "Radiohead",
+    "source": "https://music.apple.com/us/album/ok-computer/1097861387?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/60/ba/0760ba0f-148c-b18f-d0ff-169ee96f3af5/634904078164.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-15.jpg",
+    "title": "songs",
+    "artist": "Adrianne Lenker",
+    "source": "https://music.apple.com/us/album/songs/1526437437?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/70/f0/a6/70f0a6a5-cd71-9da2-174b-41927d331cdd/cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-16.jpg",
+    "title": "The Queen Is Dead",
+    "artist": "The Smiths",
+    "source": "https://music.apple.com/us/album/the-queen-is-dead/800092985?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1a/e8/70/1ae870c3-b402-096b-c4c4-8022af5a2ed9/745099189662.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-17.jpg",
+    "title": "Disintegration (2010 Remaster)",
+    "artist": "The Cure",
+    "source": "https://music.apple.com/us/album/disintegration-2010-remaster/372100016?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/93/3c/2c/mzi.ujtdsknz.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-18.jpg",
+    "title": "Torches",
+    "artist": "Foster the People",
+    "source": "https://music.apple.com/us/album/torches/435761204?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ba/07/5b/ba075b3c-f0c4-b519-59f3-7ae74d43246b/dj.lajxsvkg.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-19.jpg",
+    "title": "Louder Than Bombs",
+    "artist": "The Smiths",
+    "source": "https://music.apple.com/us/album/louder-than-bombs/802231063?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/3a/62/023a629e-1541-c493-0b45-536cbe9b59dd/825646642847.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-20.jpg",
+    "title": "Goodbye Horses - Single",
+    "artist": "Q Lazzarus",
+    "source": "https://music.apple.com/us/album/goodbye-horses-single/1247751578?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9b/c7/c8/9bc7c896-3541-3108-156d-9d71fb6c47ea/191773321826.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-21.jpg",
+    "title": "Doolittle",
+    "artist": "Pixies",
+    "source": "https://music.apple.com/us/album/doolittle/7060469?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/34/07/72/34077276-8f67-c638-8c4f-73dd89d2dfab/5014436905025.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-22.jpg",
+    "title": "Solar Power",
+    "artist": "Lorde",
+    "source": "https://music.apple.com/us/album/solar-power/1572940891?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/46/9d/e2/469de216-6c4f-eb7f-7240-396f167bfe07/21UMGIM51680.rgb.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-23.jpg",
+    "title": "This Is How Tomorrow Moves",
+    "artist": "beabadoobee",
+    "source": "https://music.apple.com/us/album/this-is-how-tomorrow-moves/1741999882?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/fa/f7/78faf7a9-97c0-5aa7-df1e-547da9703178/196922946356_Cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-24.jpg",
+    "title": "This Is Why",
+    "artist": "Paramore",
+    "source": "https://music.apple.com/us/album/this-is-why/1646945378?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/21/de/99/21de99a3-6eb6-5372-6a96-40d992808d9c/075679716224.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-25.jpg",
+    "title": "Yes, You Did - Single",
+    "artist": "Rob49 & Real Boston Richey",
+    "source": "https://music.apple.com/us/album/yes-you-did-single/1686671353?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/3a/a3/2b3aa3ce-7d0c-d83f-f919-97ca7424ca90/808391158207_Cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-26.jpg",
+    "title": "Father of the Bride",
+    "artist": "Vampire Weekend",
+    "source": "https://music.apple.com/us/album/father-of-the-bride/1454428976?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/fa/36/c4fa36f5-eee0-8549-bb95-3c341c82ef40/886447485521.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-27.jpg",
+    "title": "French Exit",
+    "artist": "TV Girl",
+    "source": "https://music.apple.com/us/album/french-exit/1623929720?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3d/09/0c/3d090c87-f02b-3c3c-cedf-603cc900082f/888174780955_cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-28.jpg",
+    "title": "the way things go - Single",
+    "artist": "beabadoobee",
+    "source": "https://music.apple.com/us/album/the-way-things-go-single/1694727762?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/61/34/72/61347250-fc5e-41f3-76f8-aeceb76350d9/196922537851_Cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-29.jpg",
+    "title": "I See You",
+    "artist": "The xx",
+    "source": "https://music.apple.com/us/album/i-see-you/1170763548?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bc/c2/4e/bcc24e7c-b389-682c-8f17-5bcb3c4e5f8f/889030016157.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-30.jpg",
+    "title": "i,i",
+    "artist": "Bon Iver",
+    "source": "https://music.apple.com/us/album/i-i/1470962625?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/de/f0/bf/def0bfe3-6b57-34fa-3a40-bb67aa6284b2/656605235066.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-31.jpg",
+    "title": "Something for Your M.I.N.D. - Single",
+    "artist": "Superorganism",
+    "source": "https://music.apple.com/us/album/something-for-your-m-i-n-d-single/1273304158?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d2/dc/46/d2dc46ea-1b5f-cbf9-9cff-cb61817a7c60/887829088088.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-32.jpg",
+    "title": "2",
+    "artist": "Mac DeMarco",
+    "source": "https://music.apple.com/us/album/2/6789812611?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/ca/9c/a9ca9c83-4b8f-090e-0bb8-5e6b1e5eebfd/cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-33.jpg",
+    "title": "Déjenme Llorar",
+    "artist": "Carla Morrison",
+    "source": "https://music.apple.com/us/album/d%C3%A9jenme-llorar/1862967956?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/f6/ce/71f6ce36-fdee-c95b-ced5-2b54ab8b14f9/787790255666.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-34.jpg",
+    "title": "Loverboy - Single",
+    "artist": "A-Wall",
+    "source": "https://music.apple.com/us/album/loverboy-single/1773107724?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/41/7d/38417d24-9459-bab5-2d41-da44d7946b3d/1836.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-35.jpg",
+    "title": "Glue Song - Single",
+    "artist": "beabadoobee",
+    "source": "https://music.apple.com/us/album/glue-song-single/1667888596?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/76/6e/b6/766eb6e4-d746-00cf-7009-5d3719854f65/196922349447_Cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-36.jpg",
+    "title": "Heaven Or Las Vegas (Remastered)",
+    "artist": "Cocteau Twins",
+    "source": "https://music.apple.com/us/album/heaven-or-las-vegas-remastered/258198881?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/76/cd/61/76cd61e7-0714-dce5-c48e-0f05f8fcb84b/652637001280.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-37.jpg",
+    "title": "Mordechai",
+    "artist": "Khruangbin",
+    "source": "https://music.apple.com/us/album/mordechai/1501585499?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/94/a7/44/94a74465-1fe9-b897-a1ed-99b2e5b3b497/656605149363.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-38.jpg",
+    "title": "The Universe Smiles Upon You",
+    "artist": "Khruangbin",
+    "source": "https://music.apple.com/us/album/the-universe-smiles-upon-you/1098176465?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/08/d9/24/08d924cf-3f00-268c-c772-58b7f96b5797/5060391090474_cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-39.jpg",
+    "title": "Give Up (Deluxe 10th Anniversary Edition)",
+    "artist": "The Postal Service",
+    "source": "https://music.apple.com/us/album/give-up-deluxe-10th-anniversary-edition/597936899?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/0d/c2/e80dc202-b4ec-b056-5dda-d51c16b89f17/098787104561.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-40.jpg",
+    "title": "Amnesiac",
+    "artist": "Radiohead",
+    "source": "https://music.apple.com/us/album/amnesiac/1097864180?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/43/d8/ec/43d8ec17-0e96-dba9-21d9-4cdf9d98f2bf/634904078362.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-41.jpg",
+    "title": "CINEMA",
+    "artist": "The Marías",
+    "source": "https://music.apple.com/us/album/cinema/1563957170?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0b/67/3f/0b673fd4-5e49-fccd-6193-3076bef03f53/075679792389.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-42.jpg",
+    "title": "Tidal",
+    "artist": "Fiona Apple",
+    "source": "https://music.apple.com/us/album/tidal/309677190?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/57/2f/4f572ff0-e5f0-b39e-b6b0-1ae7c9f922af/884977129762.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-43.jpg",
+    "title": "AM",
+    "artist": "Arctic Monkeys",
+    "source": "https://music.apple.com/us/album/am/663097964?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-44.jpg",
+    "title": "Treehouse (feat. Emily Yacina) - Single",
+    "artist": "Alex G",
+    "source": "https://music.apple.com/us/album/treehouse-feat-emily-yacina-single/1606521393?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/09/d9/f709d9fe-c89f-9e86-7736-e0c2f66cc054/859753084726_cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-45.jpg",
+    "title": "back to friends - Single",
+    "artist": "sombr",
+    "source": "https://music.apple.com/us/album/back-to-friends-single/1786481196?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/d5/ad/5dd5ad1b-fabf-9218-77f0-3adbfd5328ac/054391237118.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-46.jpg",
+    "title": "Absolutely",
+    "artist": "Dijon",
+    "source": "https://music.apple.com/us/album/absolutely/1591107486?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f3/c8/3e/f3c83e4f-8b8a-0038-ceca-094b969b67ab/093624878216.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-47.jpg",
+    "title": "When You See Yourself",
+    "artist": "Kings of Leon",
+    "source": "https://music.apple.com/us/album/when-you-see-yourself/1547474568?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ac/c6/8a/acc68af5-41ca-ddcc-6926-e117e9e1b198/886448318903.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-48.jpg",
+    "title": "Laurel Hell",
+    "artist": "Mitski",
+    "source": "https://music.apple.com/us/album/laurel-hell/1589295663?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fe/01/99/fe019995-88e4-9e5c-9621-d28953dc9aa5/27273.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-49.jpg",
+    "title": "Hounds of Love (2018 Remaster)",
+    "artist": "Kate Bush",
+    "source": "https://music.apple.com/us/album/hounds-of-love-2018-remaster/1675560565?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/97/32/62973286-5bb3-0de7-c051-8b2de8d95472/cover.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-50.jpg",
+    "title": "Blurryface",
+    "artist": "twenty one pilots",
+    "source": "https://music.apple.com/us/album/blurryface/974485462?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8e/e2/89/8ee28904-0821-610d-5011-a61845f62756/075679926951.jpg/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-51.jpg",
+    "title": "space girl (feat. chloe moriondo) - Single",
+    "artist": "Frances Forever",
+    "source": "https://music.apple.com/us/album/space-girl-feat-chloe-moriondo-single/1550652201?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/95/86/4f/95864f8e-8cae-d6fd-4431-5e1834f167ac/858275061901.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-52.jpg",
+    "title": "The Car",
+    "artist": "Arctic Monkeys",
+    "source": "https://music.apple.com/us/album/the-car/1639369016?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/8e/cf/448ecfff-7f7d-286c-8a4a-b631eeeefedb/887828045563.png/100x100bb.jpg"
+  },
+  {
+    "file": "assets/album-53.jpg",
+    "title": "Long Lost",
+    "artist": "Lord Huron",
+    "source": "https://music.apple.com/us/album/long-lost/1557584746?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7f/18/82/7f188215-c2bf-2662-b2db-5e66545a94b3/21UMGIM06680.rgb.jpg/100x100bb.jpg"
+  },
+  {
+    "title": "Hot Pink",
+    "artist": "Doja Cat",
+    "source": "https://music.apple.com/us/album/hot-pink/1486465096?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f3/03/40/f30340af-55d6-11bb-f59c-b03705360715/886447991831.jpg/600x600bb.jpg",
+    "file": "assets/brand-1486465096.jpg",
+    "palette": "brand-pink"
+  },
+  {
+    "title": "Pink Friday (Deluxe Edition)",
+    "artist": "Nicki Minaj",
+    "source": "https://music.apple.com/us/album/pink-friday-deluxe-edition/1440909639?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/6a/dc/3f6adcfb-4d27-303e-b964-3710c56800e3/11UMGIM13385.rgb.jpg/600x600bb.jpg",
+    "file": "assets/brand-1440909639.jpg",
+    "palette": "brand-pink"
+  },
+  {
+    "title": "thank u, next",
+    "artist": "Ariana Grande",
+    "source": "https://music.apple.com/us/album/thank-u-next/1450333975?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/69/07/bb6907de-8ad4-970b-3311-121320e1bf9c/19UMGIM03691.rgb.jpg/600x600bb.jpg",
+    "file": "assets/brand-1450333975.jpg",
+    "palette": "brand-pink"
+  },
+  {
+    "title": "Chromatica",
+    "artist": "Lady Gaga",
+    "source": "https://music.apple.com/us/album/chromatica/1500951604?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5d/4d/f9/5d4df96a-e95e-2fe9-404a-5d570513762d/20UMGIM15390.rgb.jpg/600x600bb.jpg",
+    "file": "assets/brand-1500951604.jpg",
+    "palette": "brand-pink"
+  },
+  {
+    "title": "Lover",
+    "artist": "Taylor Swift",
+    "source": "https://music.apple.com/us/album/lover/1468058165?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/49/3d/ab/493dab54-f920-9043-6181-80993b8116c9/19UMGIM53909.rgb.jpg/600x600bb.jpg",
+    "file": "assets/brand-1468058165.jpg",
+    "palette": "brand-pink"
+  },
+  {
+    "title": "Fine Line",
+    "artist": "Harry Styles",
+    "source": "https://music.apple.com/us/album/fine-line/1485802965?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/c4/c9/2bc4c9d4-3bc6-ab13-3f71-df0b89b173de/886448022213.jpg/600x600bb.jpg",
+    "file": "assets/brand-1485802965.jpg",
+    "palette": "brand-pink"
+  },
+  {
+    "title": "SQUARE UP - EP",
+    "artist": "BLACKPINK",
+    "source": "https://music.apple.com/us/album/square-up-ep/1551479990?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/5d/c3/5e5dc3a6-797b-dee5-9f51-2dcbf447c48e/19UMGIM05046.rgb.jpg/600x600bb.jpg",
+    "file": "assets/brand-1551479990.jpg",
+    "palette": "brand-pink"
+  },
+  {
+    "title": "Kiss (Deluxe Version)",
+    "artist": "Carly Rae Jepsen",
+    "source": "https://music.apple.com/us/album/kiss-deluxe-version/1440873664?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/14/54/19/145419b2-96f6-fc9e-3110-fbdc78022df6/12UMGIM48177.rgb.jpg/600x600bb.jpg",
+    "file": "assets/brand-1440873664.jpg",
+    "palette": "brand-pink"
+  },
+  {
+    "title": "Dirty Computer",
+    "artist": "Janelle Monáe",
+    "source": "https://music.apple.com/us/album/dirty-computer/1349993533?uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/1a/cb/c9/1acbc9b5-d32a-ad24-cc25-a6e9f924dcf7/075679876904.jpg/600x600bb.jpg",
+    "file": "assets/brand-1349993533.jpg",
+    "palette": "brand-pink"
+  }
+]
