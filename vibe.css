@@ -65,3 +65,33 @@ dialog{border-radius:var(--radius-dialog)}
 @keyframes platform-drift-roomy{0%,100%{transform:translate(0,0)}25%{transform:translate(2px,-3px)}50%{transform:translate(0,-6px)}75%{transform:translate(-2px,-3px)}}
 @media(prefers-reduced-motion:no-preference){.platform-logo{animation:platform-drift-roomy var(--duration) ease-in-out infinite;animation-delay:var(--delay)}}
 @media(max-width:700px){:root{--intro-size:16px}.earnings-layout{display:block}.earnings-layout>h2{margin-bottom:36px}.earnings-card{max-width:none;padding:35px 23px;gap:28px 18px}.stats>div>span{font-size:12px;line-height:18px}.insight-description{font-size:14px;line-height:21px}}
+
+/* Share icon, heading and description rows so wrapping never shifts the copy. */
+@media (min-width:701px) {
+  .tools-grid { grid-template-columns:repeat(3,minmax(0,1fr)); row-gap:0; align-items:start; }
+  .tools-grid article { display:grid; grid-template-rows:subgrid; grid-row:span 3; min-width:0; justify-items:center; }
+  .tools-grid h3 { width:100%; min-width:0; padding:0 4px; overflow-wrap:normal; }
+  .tools-grid p { width:100%; }
+}
+
+/* The exported portrait artwork becomes a cropped left panel on narrower screens. */
+@media (max-width:1279px) {
+  .promotion-grid.promotion-composites { grid-template-columns:minmax(0,1fr); max-width:none; gap:24px; }
+  .promotion-composites article { display:grid; grid-template-columns:44% minmax(0,1fr); aspect-ratio:auto; min-height:300px; background:#f3f3f1; position:relative; }
+  .promotion-composites article::before { content:""; align-self:stretch; background:var(--card-art) center top/cover no-repeat; }
+  .promotion-grid.promotion-composites article>.promotion-copy { align-self:center; margin:0; padding:32px 36px; min-width:0; }
+  .promotion-composites h3 { font-size:30px; line-height:1.15; }
+  .promotion-composites p { font-size:16px; line-height:1.5; margin-top:16px; }
+}
+@media (max-width:700px) {
+  .promotion-composites article { grid-template-columns:38% minmax(0,1fr); min-height:280px; }
+  .promotion-grid.promotion-composites article>.promotion-copy { padding:24px; }
+  .promotion-composites h3 { font-size:25px; }
+  .promotion-composites p { font-size:14px; }
+}
+@media (max-width:480px) {
+  .promotion-composites article { grid-template-columns:32% minmax(0,1fr); }
+  .promotion-composites article::before { background-size:auto 160%; }
+  .promotion-grid.promotion-composites article>.promotion-copy { padding:22px 16px; }
+  .promotion-composites h3 { font-size:22px; letter-spacing:-.35px; }
+}

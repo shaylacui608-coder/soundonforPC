@@ -159,3 +159,11 @@
 .promotion-grid h3{font-size:28px;line-height:1.2}
 .promotion-grid p{font-size:15px;line-height:1.5;margin:16px 0 0;color:#bbb}
 @media(max-width:700px){.promotion-grid{gap:48px}.promotion-grid img{max-width:400px;margin-inline:auto}.promotion-grid article>div{padding:20px 12px 0}.promotion-grid h3{font-size:27px}}
+
+/* Share icon, heading and description rows so wrapping never shifts the copy. */
+@media (min-width:701px) {
+  .tools-grid { grid-template-columns:repeat(3,minmax(0,1fr)); row-gap:0; align-items:start; }
+  .tools-grid article { display:grid; grid-template-rows:subgrid; grid-row:span 3; min-width:0; justify-items:center; }
+  .tools-grid h3 { width:100%; min-width:0; padding:0 4px; overflow-wrap:normal; }
+  .tools-grid p { width:100%; }
+}
