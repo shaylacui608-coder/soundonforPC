@@ -1,0 +1,10 @@
+main{height:760px;min-height:0;padding-top:0;grid-template-columns:54% 46%}
+.copy h1{font-size:clamp(54px,5.5vw,82px);line-height:.98;letter-spacing:-3px;font-weight:700}
+.headline-line{color:#111;white-space:nowrap}.headline-line.accent{color:#fe2c55}
+.copy p{font-size:18px;line-height:27px;margin:30px 0;max-width:420px;color:#535353}
+.hero-actions .cta{height:48px;padding:0 26px;font-size:14px;min-width:145px}
+.hero-actions .cta:first-child{background:#fe2c55;border-color:#fe2c55}.hero-actions .cta:first-child:hover{background:#e9234b}
+.scene{height:650px;align-self:center}
+@media(max-width:1100px) and (min-width:801px){.copy h1{font-size:clamp(48px,5.6vw,65px);letter-spacing:-2px}.scene{height:540px}main{height:680px}}
+@media(max-width:800px){main{height:auto;padding:52px 22px 0;display:flex}.copy{text-align:left}.copy h1{font-size:clamp(43px,8.5vw,66px);letter-spacing:-1.8px}.copy p{font-size:16px;line-height:24px;margin:24px 0;max-width:360px}.hero-actions{justify-content:flex-start}.hero-actions .cta{min-width:135px;padding:0 20px}.scene{margin-top:35px;height:420px;max-width:520px;align-self:center}}
+@media(max-width:450px){.scene{height:350px}}

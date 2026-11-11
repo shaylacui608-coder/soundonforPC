@@ -1,0 +1,92 @@
+/* Equal-width plan cards with tier-specific accents. */
+.plans{padding:88px 0;background:#121212;color:#fff;border-top:0}
+.plans-eyebrow{display:block;font-size:12px;line-height:18px;letter-spacing:1.6px;color:#999;margin-bottom:18px}
+.plans h2{font-size:64px;line-height:1.02;letter-spacing:-1.8px}
+.plans-description{font-size:18px;line-height:27px;color:#ccc;max-width:none;margin:12px 0 0}
+.plan-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:64px;align-items:stretch}
+.plan{position:relative;overflow:hidden;--plan-accent:#fff;border:1px solid var(--plan-accent);border-radius:16px;padding:20px;min-height:574px;display:flex;flex-direction:column;justify-content:flex-start;gap:0;background:#121212;transition:background .25s}
+.plan:hover{background:#181818}.plan-lite{--plan-accent:#58c4d2}.plan-core{--plan-accent:#fe2c55}.plan-core:hover{background:#191114}
+.plan .price{font-family:Text,Arial,sans-serif;font-weight:500;font-size:24px;line-height:30px;letter-spacing:-.5px}
+.plan .price small{font:500 17px Text,Arial,sans-serif;letter-spacing:0}
+.plan .billing-note{font-size:11px;line-height:16px;color:#999;margin:7px 0 0;min-height:36px;max-width:none}
+.plan-top{margin-top:32px;min-height:146px}.plan-heading{display:flex;align-items:center}
+.plan h3{font-family:Display,Arial,sans-serif;font-size:48px;line-height:54px;font-weight:700;letter-spacing:-1px;text-transform:uppercase}.plan-core h3{color:#fe2c55}
+.plan .subtitle{font-size:14px;line-height:21px;color:#ccc;min-height:42px;margin:8px 0 0}
+.plan ul{font-size:14px;line-height:20px;gap:0;margin:8px 0 24px;padding:0;display:grid;flex:1;align-content:start}
+.plan li{padding:13px 0 13px 27px;border-bottom:1px solid #363636;min-height:53px;display:flex;align-items:center}
+.plan li:before{top:50%;transform:translateY(-50%);width:17px;height:17px;background:var(--plan-accent);mask:url(assets/checkmark.svg) center/contain no-repeat;filter:none}
+.plan .pill{width:100%;height:46px;min-height:46px;padding:12px 20px;margin:0;font-size:14px;font-weight:500;background:var(--plan-accent);color:#111;transform:none}
+.plan .pill:hover{background:var(--plan-accent);filter:brightness(1.08)}
+.plan-ribbon{position:absolute;top:0;right:0;width:145px;height:145px;overflow:hidden;pointer-events:none}.plan-ribbon span{position:absolute;top:30px;right:-42px;transform:rotate(45deg);width:200px;text-align:center;background:#fe2c55;color:#fff;padding:6px 0;font-size:10px;line-height:14px;letter-spacing:1px;font-weight:500}
+.compare-plans{display:flex;align-items:center;justify-content:center;gap:10px;width:max-content;margin:64px auto 0;border:0;border-radius:999px;padding:16px 28px;min-height:52px;background:#fff;color:#111;font-size:16px;line-height:20px;font-weight:500;text-decoration:none;transition:background .2s,transform .2s}.compare-plans span{font-size:18px;line-height:20px}.compare-plans:hover{background:#e9e9e7;transform:translateY(-2px)}
+.compare-dialog{max-width:900px}.comparison-scroll{overflow:auto;margin-top:28px}.comparison-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.5;text-align:left}.comparison-table th,.comparison-table td{padding:15px 12px;border-bottom:1px solid #ddd;min-width:130px}.comparison-table thead th{color:#fe2c55}.comparison-table tbody th{font-weight:500;min-width:190px}
+@media(max-width:1100px) and (min-width:701px){.plan-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.plan{padding:28px 20px 20px}.plan h3{font-size:40px}.plan ul{font-size:12px}.plan li{min-height:62px}.plan-ribbon{width:110px;height:110px}.plan-ribbon span{font-size:8px;top:22px;right:-55px}.plan .billing-note{max-width:160px}.plans h2{font-size:54px}}
+@media(max-width:700px){.plans{padding:60px 0}.plans h2{font-size:42px;line-height:1.05;letter-spacing:-1.2px}.plans-eyebrow{margin-bottom:14px;font-size:11px}.plans-description{font-size:16px;line-height:24px;margin-top:20px}.plan-grid{grid-template-columns:1fr;margin-top:36px;gap:20px}.plan{padding:28px;min-height:0}.plan .billing-note{min-height:0;max-width:230px}.plan h3{font-size:44px}.plan-top{margin-top:24px;min-height:0}.plan .subtitle{min-height:0}.plan ul{margin-top:24px}.plan li{min-height:50px}.compare-plans{margin-top:28px}}
+
+
+/* Scheme 2 palette. Typography and card structure above match Scheme 1. */
+.plans{background:#f3f3f1;color:#121212;border:0}
+.plans h2{font-size:var(--heading-size);line-height:1.04;letter-spacing:-1.8px;text-transform:none}
+.plans-description{color:#121212;font-size:18px;line-height:27px;max-width:none}
+.plan-lite{--plan-accent:#fff;background:#00c6df;border-color:#00c6df;color:#fff}
+.plan-core{--plan-accent:#fff;background:#fe2c55;border-color:#fff;color:#fff}
+.plan-max{--plan-accent:#fff;background:#121212;border-color:#121212;color:#fff}
+.plan-lite:hover{background:#00c6df}.plan-core:hover{background:#fe2c55}.plan-max:hover{background:#121212}
+.plan h3,.plan-core h3,.plan .price{color:#fff}
+.plan .billing-note{font-size:12px;line-height:18px}
+.plan-lite .subtitle,.plan-lite .billing-note,.plan-lite .price small,.plan-lite li,
+.plan-core .subtitle,.plan-core .billing-note,.plan-core .price small,.plan-core li{color:#fff}
+.plan-max .subtitle,.plan-max .billing-note{color:#999}
+.plan-max .price small,.plan-max li{color:#ccc}
+.plan li{font-size:14px;line-height:20px;border-color:#ffffff33}
+.plan-max li{border-color:#363636}
+.plan li strong,.artist-capacity strong{font-family:Display,Arial,sans-serif;font-weight:700}
+.plan-lite .pill{background:#f3f3f1;color:#00c6df}
+.plan-core .pill{background:#fff;color:#fe2c55}
+.plan-max .pill{background:#fff;color:#121212}
+.plan .pill:hover{background:#fff;filter:brightness(.97);transform:none}
+.plan-ribbon span{background:#fff;color:#fe2c55}
+.artist-capacity{display:flex;align-items:center;gap:10px;width:max-content;max-width:100%;padding:6px 12px;margin:8px 0 0;border:1px solid #999;border-radius:999px;color:#fff;font-size:14px;line-height:20px}
+.artist-capacity-icon{width:18px;height:18px;flex-shrink:0}.artist-capacity-chevron{width:16px;height:16px;flex-shrink:0}
+.compare-plans{background:#171717;color:#fff}.compare-plans:hover{background:#363636}
+@media(max-width:1100px) and (min-width:701px){.plan li{font-size:12px}}
+@media(max-width:700px){.plans{padding:64px 0}.plans h2{font-size:var(--heading-size);letter-spacing:-1px}.plans-description{font-size:16px;line-height:24px}}
+
+/* Label plans: Max is the recommended tier. */
+html[data-audience=labels] .plan{background:#f3f3f1;color:#111;border-color:#555;--plan-accent:#111}
+html[data-audience=labels] .plan h3,html[data-audience=labels] .plan .price,
+html[data-audience=labels] .plan .price small,html[data-audience=labels] .plan .billing-note,
+html[data-audience=labels] .plan .subtitle,html[data-audience=labels] .plan li{color:#111}
+html[data-audience=labels] .plan li{border-color:#555}
+html[data-audience=labels] .plan .pill{background:#111;color:#fff}
+html[data-audience=labels] .plan-max{background:#fe2c55;border-color:#fe2c55;--plan-accent:#fff}
+html[data-audience=labels] .plan-max h3,html[data-audience=labels] .plan-max .price,
+html[data-audience=labels] .plan-max .price small,html[data-audience=labels] .plan-max .billing-note,
+html[data-audience=labels] .plan-max li{color:#fff}
+html[data-audience=labels] .plan-max .subtitle{color:#ffffffb3}
+html[data-audience=labels] .plan-max .pill{background:#fff;color:#111}
+html[data-audience=labels] .artist-capacity{border-color:#fff;color:#fff}
+.artist-capacity-icon{background:currentColor;mask:url(assets/artists.svg) center/contain no-repeat}
+.artist-capacity-chevron{background:currentColor;mask:url(assets/artist-chevron.svg) center/contain no-repeat}
+html[data-audience=labels] .plan-ribbon span{letter-spacing:0;background:#f3f3f1;color:#fe2c55}
+html[data-audience=labels] #plans .wrap>p{color:#111}
+
+/* Artists: dark comparison cards, with Core as the highlighted plan. */
+html[data-audience=artists] #plans{background:#111;color:#fff}
+html[data-audience=artists] #plans .wrap>p{color:#bdbdbd}
+html[data-audience=artists] #plans .plan{background:#111;color:#fff;border-color:#b9b9b9;--plan-accent:#fff}
+html[data-audience=artists] #plans .plan:hover{background:#181818}
+html[data-audience=artists] #plans .plan-core{border-color:#fe2c55;--plan-accent:#fe2c55}
+html[data-audience=artists] #plans .plan h3,
+html[data-audience=artists] #plans .plan .price,
+html[data-audience=artists] #plans .plan .price small{color:#fff}
+html[data-audience=artists] #plans .plan-core h3{color:#fe2c55}
+html[data-audience=artists] #plans .plan .billing-note{color:#999}
+html[data-audience=artists] #plans .plan .subtitle{color:#bdbdbd}
+html[data-audience=artists] #plans .plan li{color:#e4e4e4;border-color:#363636}
+html[data-audience=artists] #plans .plan .pill{background:#fff;color:#111}
+html[data-audience=artists] #plans .plan-core .pill{background:#fe2c55;color:#111}
+html[data-audience=artists] #plans .plan-ribbon span{background:#fe2c55;color:#fff;letter-spacing:0;text-transform:lowercase}
+html[data-audience=artists] #plans .artist-capacity{color:#fff;border-color:#ddd}
+html[data-audience=artists] #plans .compare-plans{background:#fe2c55;color:#fff}
+html[data-audience=artists] #plans .compare-plans:hover{background:#ed214b}

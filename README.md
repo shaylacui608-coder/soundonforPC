@@ -1,11 +1,15 @@
 # SoundOn for PC
 
-Two independent SoundOn interactive homepage design prototypes.
+SoundOn interactive homepage design prototypes, with the original two schemes preserved.
 
 ## Preview
 
 - Scheme 1: https://shaylacui608-coder.github.io/soundonforPC/
 - Scheme 2: https://shaylacui608-coder.github.io/soundonforPC/v2/
+
+- Artists / Labels: https://shaylacui608-coder.github.io/soundonforPC/artists-labels/
+- Artist mode: https://shaylacui608-coder.github.io/soundonforPC/artists-labels/?audience=artists
+- Label mode: https://shaylacui608-coder.github.io/soundonforPC/artists-labels/?audience=labels
 
 ## Local preview
 

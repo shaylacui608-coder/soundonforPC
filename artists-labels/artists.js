@@ -1,0 +1,10 @@
+const artists=[
+ {name:'Jordan Susanto',tiktok:'https://www.tiktok.com/@jordansusantosings',genre:'R&B/Soul',country:'Indonesia',image:'protrait01.png',text:'“Senopati in the Rain” topped Spotify’s Global Viral chart and earned Jordan Best Soul/R&B Solo Artist at the 2024 AMI Awards.'},
+ {name:'Dendi Nata',tiktok:'https://www.tiktok.com/@dendinataa',genre:'Pop',country:'Indonesia',image:'protrait07.png',text:'Social momentum helped “Abadi” reach Spotify’s Viral charts across Southeast Asia, with all versions together surpassing 235 million Spotify streams.'},
+ {name:'Fabio Asher',tiktok:'https://www.tiktok.com/@fabioasher',genre:'Pop',country:'Indonesia',image:'protrait08.png',text:'With hits like “Rumah Singgah,” Fabio reached No. 1 on Spotify’s Global Viral chart and earned Best New Artist at the AMI Awards.'},
+ {name:'WizTheMc',tiktok:'https://www.tiktok.com/@wizthemc',genre:'Afropop',country:'Germany',image:'protrait02.png',text:'“Show Me Love” landed on 300+ editorial playlists, including Today’s Top Hits, generating over 70 million editorial streams through SoundOn’s targeted playlist strategy.'},
+ {name:'Rio Clappy',tiktok:'https://www.tiktok.com/@rio_clappy',genre:'Pop',country:'Indonesia',image:'protrait03.png',text:'“Bunga Abadi” reached No. 1 on Spotify’s Indonesia Viral chart and No. 6 on its Indonesia Top Songs chart.'},
+ {name:'Silet Open Up',tiktok:'https://www.tiktok.com/@siletopenup',genre:'Dance',country:'Indonesia',image:'protrait05.png',text:'With SoundOn’s cross-platform promotion and explosive TikTok momentum, “TABOLA BALE” reached No. 1 on Spotify’s Indonesia Top Songs chart and No. 30 globally.'},
+ {name:'Nuh...',tiktok:'https://www.tiktok.com/@nuh..cobacoba',genre:'Pop',country:'Indonesia',image:'protrait04.png',text:'“Teruntuk Mia” reached No. 2 on Spotify’s Indonesia Viral chart and No. 85 on its Indonesia Top Songs chart.'},
+ {name:'Mazaya Amania',tiktok:'https://www.tiktok.com/@daddynmazaya',genre:'Pop',country:'Indonesia',image:'protrait06.png',text:'With “Ayam Piyik,” Mazaya earned Best Solo Child Artist at the 2024 AMI Awards, bringing Indonesian children’s music into the spotlight.'}
+];

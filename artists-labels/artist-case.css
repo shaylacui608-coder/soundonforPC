@@ -1,0 +1,31 @@
+/* One release, one artist: a focused editorial case study. */
+html[data-audience=artists] #artists{padding:100px 0 112px;background:#111}
+html[data-audience=artists] #artists .artist-proof-intro{font-size:18px;line-height:1.5;margin:22px 0 0;color:#bbb}
+.artist-single-case{margin-top:54px;display:grid;grid-template-columns:44% 56%;background:#f3f3f1;color:#111;overflow:hidden;border-radius:8px}
+.artist-case-portrait{position:relative;min-height:590px;overflow:hidden;background:#a95c11}
+.artist-case-portrait>img{display:block;width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:center 25%;transition:transform .6s}
+.artist-case-portrait:after{content:'';position:absolute;inset:60% 0 0;background:linear-gradient(transparent,#2816009c);pointer-events:none}
+.artist-case-release{position:absolute;bottom:32px;left:32px;right:32px;display:flex;gap:18px;align-items:center;z-index:1;color:#fff}
+.artist-case-release>img{width:94px;height:94px;object-fit:cover;border:1px solid #ffffff44;box-shadow:0 8px 20px #0003;transform:rotate(-5deg);transition:transform .4s}
+.artist-case-release strong{font:700 25px/1.2 Display;display:block}
+.artist-case-release span{font-size:16px;display:block;margin-top:6px;color:#fff}
+.artist-case-copy{padding:46px 48px;display:flex;flex-direction:column;justify-content:center}
+.artist-case-byline{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin-bottom:27px}
+.artist-case-byline>span:first-child{font:700 24px/1.2 Display;color:#ae6629}
+.artist-case-byline>span:last-child{font:400 14px/1.4 Text;color:#64645f}
+.artist-case-copy h3{font:700 40px/1.1 Display;letter-spacing:-1.2px;margin:0;color:#111}
+.artist-case-copy>p{font-size:17px;line-height:1.6;color:#535353;margin:24px 0 0;max-width:470px}
+.artist-case-results{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:36px 0 32px}
+.artist-case-results strong{display:block;font:700 48px/1 Display;letter-spacing:-1.5px;color:#fe2c55}
+.artist-case-results span{display:block;font-size:13px;line-height:1.4;margin-top:10px;color:#535353;max-width:165px}
+.artist-case-copy>a{display:inline-flex;align-items:center;gap:12px;align-self:flex-start;font-size:16px;font-weight:500;color:#111;text-decoration:none;border-bottom:1px solid #111;padding-bottom:8px}
+.artist-case-copy>a span{transition:transform .2s}
+.artist-case-copy>a:hover span{transform:translate(3px,-3px)}
+.artist-single-case:hover .artist-case-release>img{transform:rotate(-2deg) translateY(-3px)}
+@media(max-width:1100px){.artist-case-copy{padding:36px 32px}.artist-case-copy h3{font-size:34px}.artist-case-results strong{font-size:42px}.artist-case-portrait{min-height:570px}.artist-case-release{left:24px;right:24px}.artist-case-release>img{width:76px;height:76px}}
+@media(max-width:800px){.artist-single-case{grid-template-columns:1fr}.artist-case-portrait{min-height:440px}.artist-case-portrait>img{object-position:center 32%}.artist-case-copy{padding:40px}.artist-case-copy>p{max-width:none}.artist-case-results{max-width:420px}html[data-audience=artists] #artists{padding:72px 0}}
+@media(max-width:480px){.artist-case-portrait{min-height:370px}.artist-case-copy{padding:30px 24px}.artist-case-copy h3{font-size:32px}.artist-case-copy>p{font-size:16px}.artist-case-results{gap:14px}.artist-case-results strong{font-size:40px}.artist-case-release strong{font-size:23px}}
+@media(prefers-reduced-motion:reduce){.artist-single-case *{transition:none!important}}
+
+/* Warm accent drawn from the Show Me Love cover. */
+.artist-case-name{color:#d99248}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+ <defs>
+  <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#172737"/><stop offset=".58" stop-color="#3c6572"/><stop offset="1" stop-color="#f0b7a7"/></linearGradient>
+  <linearGradient id="sun" x2="0" y2="1"><stop stop-color="#fff1c9"/><stop offset="1" stop-color="#fe6983"/></linearGradient>
+  <linearGradient id="water" x2="0" y2="1"><stop stop-color="#375c6a"/><stop offset="1" stop-color="#142731"/></linearGradient>
+ </defs>
+ <path fill="url(#sky)" d="M0 0h400v400H0z"/>
+ <circle cx="200" cy="198" r="85" fill="url(#sun)"/>
+ <path fill="url(#water)" d="M0 225Q110 212 200 225T400 225V400H0z"/>
+ <g fill="none" stroke="#dfc6b5" opacity=".3"><path d="M95 239h210M120 252h160M90 265h220M122 279h156M144 294h112M118 312h164M149 331h102"/></g>
+ <text x="30" y="48" font-family="Arial,sans-serif" font-size="12" fill="#f5f1e9" letter-spacing="4">EXAMPLE RELEASE</text>
+ <text x="27" y="376" font-family="Arial,sans-serif" font-size="43" fill="#f5f1e9" letter-spacing="-2">BLUE HOUR</text>
+</svg>
